@@ -1,0 +1,35 @@
+.flex-container {
+    display: flex;
+    background-color: black;
+    color: white;
+    height: 40px;
+    background-size: 20px;
+    border-style: groove;
+    padding: 15px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+li {
+    transition: color .2s;
+}
+.itemhome:hover {
+    color: red;
+    cursor: pointer;
+    font-weight: bold;
+}
+.itemBlog:hover {
+    color: green;
+    cursor: pointer;
+    font-weight: bold;
+}
+.itemProy:hover {
+    color: yellowgreen;
+    cursor: pointer;
+    font-weight: bold;
+}
+.itemContact:hover {
+    color: blue;
+    cursor: pointer;
+    font-weight: bold;
+}
