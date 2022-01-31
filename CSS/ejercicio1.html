@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Integración de estilos</title>
+        <link rel="stylesheet" href="./ejercicio1parrafo1.css">
+        <style>
+            /* para la fuente igual para todos, podemos tambien poner por ejemplo html {} o html, body {font-family:} */
+            p, h1 {
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;';
+            }
+            #parrafo3 {
+                font-size: 10px;
+                margin-top: 30px;
+                text-decoration: underline;
+            }
+            
+        </style>
+    </head>
+
+    <body>
+        <h1>Integración de estilos</h1>
+        <p id="externo">En este ejercicio estamos viendo como podemos integrar los estilos de <br>
+            distintas formas. Este párrafo tiene los estilos definidos en un archivo externo.
+        </p>
+
+        <p style="background-color: blue; color: white; font-size: 30px;">Mientras que este los tiene definidos <br> como atributos 
+           de la etiqueta HTML.
+        </p>
+
+        <p id="parrafo3">Y este último, dentro de la etiqueta head del HTML.</p>
+
+    </body>
+</html>
