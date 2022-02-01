@@ -1,0 +1,60 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: grey;
+    font-size: 14px;
+}
+
+#main-container {
+    /* para poner en horizontal display flex y flex direction row */
+    display: flex;
+    flex-direction: row;
+    /* realizamos dos cajas, una con foto y datos del centro de salud y botón, y otro con comentarios y puntuación, y mandamos uno a cada extremo */
+    justify-content: space-between;
+    align-items: center;
+}
+
+#image-container {
+    display: flex;
+    flex-direction: row;
+}
+#info-container {
+    margin-left: 20px;
+}
+.button {
+    padding: 7px;
+    border-radius: 10px;
+}
+.reservation {
+    background-color: white;
+    border: 2px solid grey;
+}
+.presupuesto {
+    background-color: grey;
+    color: white;
+    border: none;
+    /* proque al quitar el borde, queda mas fino, le subimos dos punto, del 7 qeu habiamos puesto a clase button general, pues le ponemos nueve al de presupuesto */
+    padding: 9px;
+}
+#comentarios-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#comentarios {
+    margin-right: 20px;
+    line-height: 0.5 ;
+}
+#puntuacion {
+    background-color: rgb(180, 179, 179);
+    color: black;
+    border-radius: 10px;
+    padding: 7px;
+    
+    
+}
+.fontspan {
+    font-size: 12px;
+    font-weight: bold;
+    
+}

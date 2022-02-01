@@ -1,0 +1,29 @@
+h1 {
+    color: steelblue;
+}
+
+table, td, th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    color: seagreen;
+}
+#primerafila {
+    border: none;
+    color: blue;
+}
+#color1 {
+    color: yellowgreen;
+}
+#color2 {
+    color: red;
+}
+#colorazul {
+    color: blue;
+}
+
+#link1 {
+    color: red;
+}
+#link2 {
+    color: green;
+}

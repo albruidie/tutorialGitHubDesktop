@@ -1,0 +1,16 @@
+#circulo {
+    height:100px;
+    width:100px;
+    background:green;
+    border-radius:50px;
+}
+#main-container {
+    display: flex;
+    flex-direction: row;
+    background-image: url(https://images.freejpg.com.ar/400/2103/close-eyes-whiskers-kitten-head-feline-nose-pet-portrait-kb-F100015346.jpg);
+    height: 300px;
+    width: 300px;
+}
+#circulo:hover {
+    opacity: 0.0;
+}
