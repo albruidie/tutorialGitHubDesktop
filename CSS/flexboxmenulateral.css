@@ -1,0 +1,20 @@
+.flex-container {
+    display: flex;
+    color: blue;
+    margin-left: 20px;
+    list-style-type: none;
+    padding: 15px;
+    justify-content: left;
+    
+   
+}
+li a:link {
+    color: blue;
+}
+li a:hover {
+    color: red;
+}
+
+li a:visited {
+    color: green;
+}
